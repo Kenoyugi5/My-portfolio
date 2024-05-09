@@ -30,3 +30,9 @@ ul{
     height: 30px;
     border: 0.5px solid #ccc; /* add a division line between images */
 }
+
+ol{
+    padding: 0;
+    list-style-type: decimal;
+    display: inline-grid;
+}
