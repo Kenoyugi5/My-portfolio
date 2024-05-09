@@ -1,0 +1,97 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Title -->
+    <title>Ken Oyugi</title>
+    <!-- Custom CSS -->
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/Potrait-C.jpg' %}" alt="Profile Picture">
+                    <br>
+                    <h3>Ken Oyugi</h3>
+                    <p>Information Scientist</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body">
+                    <h4>About Me</h4>
+                    <br>
+                    <p>I am a 22 year old Information Scientist from Nairobi, Kenya. I am currently at my final year at the
+                        Technical University of Kenya, where I am studying a Bachelor of Science in Information Science.
+                        I am passionate about books, libraries and technology, and I am eager to contribute my skills
+                        and knowledge to these fields.
+                    </p>
+                    <h4>Contact Details</h4>
+                    <br>
+                    <ul class="social-links">
+                        <li><a href="mailto:koyugi02@gmail.com"><img class="social" src="{% static 'images/Gmail.png' %}" alt="Email"></a></li>
+                        <li><a href="https://www.facebook.com/ken.oyugi.56"><img class="social" src="{% static 'images/Facebook.png' %}" alt="Facebook"></a></li>
+                        <li><a href="https://www.instagram.com/oyugi_ken/"><img class="social" src="{% static 'images/Instagram.png' %}" alt="Instagram"></a></li>
+                        <li><a href="https://twitter.com/koyugi02"><img class="social" src="{% static 'images/X.png' %}" alt="X"></a></li>
+                        <li><a href="https://www.linkedin.com/in/ken-oyugi-985762280"><img class="social" src="{% static 'images/LinkedIn.png' %}" alt="LinkedIn"></a></li>
+                        <li><a href="https://github.com/Kenoyugi5"><img class="social" src="{% static 'images/GitHub.jpg' %}" alt="GitHub"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h4>Skills</h4>
+                    <br>
+                    <h5>Technical Skills</h5>
+                    <ul class="technical-skills">
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>Bootstrap</li>
+                        <li>Html and CSS</li>
+                    </ul>
+                    <h5>Soft Skills</h5>
+                    <ul class="soft-skills">
+                        <li>Communication</li>
+                        <li>Critical and Creative Thinking</li>
+                        <li>Creativity</li>
+                        <li>Intuition</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h4>First Job as a Developer</h4>
+                    <br>
+                    <p>For my final year project at The Technical University of Kenya I wanted to make my father's work
+                        easier (while also giving back to my highschool). I wanted to create a system that would increase
+                        the efficiency and time management in booking of transport and allocating vehicles and drivers.
+                    </p>
+                    <p>After approval from the school's principal I developed and implemented the system (which they now use).
+                        I was able to learn a lot from the project, and now I'm in the process of getting certified in Django
+                        development.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
